@@ -7,6 +7,7 @@ def oxford_comma(array)
     string << array.shift
   end
   puts string
+  string
 end
 
 oxford_comma([43])
