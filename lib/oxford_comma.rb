@@ -4,7 +4,7 @@ def oxford_comma(array)
     string << array.shift.to_s
   elsif array.size == 2
     string << array.shift.to_s << " and " << array.shift.to_s
-  else
+  elsif array.size != 0
     
   end
   puts string
