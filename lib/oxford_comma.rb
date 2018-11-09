@@ -3,7 +3,7 @@ def oxford_comma(array)
   if array.size == 1
     string << array.shift.to_s
   elsif array.size == 2
-    string << array.shift.to_s
+    string << array.shift.to_s << " and " << array.shift.to_s
     string << array.shift
   end
   puts string
