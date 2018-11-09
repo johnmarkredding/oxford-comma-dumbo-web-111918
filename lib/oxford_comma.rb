@@ -7,7 +7,6 @@ def oxford_comma(array)
   elsif array.size != 0
     
   end
-  puts string
   string
 end
 
