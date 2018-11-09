@@ -8,7 +8,7 @@ def oxford_comma(array)
     until array.size == 1
       string << array.shift.to_s
     end
-    
+    string << "and " << array.shift.to_s
   end
   string
 end
